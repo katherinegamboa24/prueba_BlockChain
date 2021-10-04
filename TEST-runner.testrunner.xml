@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.testrunner" time="53.35" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\LUCHO-NOTE\Documents\git-aprende\ApprendeTest\target\test-classes;C:\Users\LUCHO-NOTE\Documents\git-aprende\ApprendeTest\target\classes;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-java\6.8.1\cucumber-java-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-core\6.8.1\cucumber-core-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-gherkin\6.8.1\cucumber-gherkin-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.8.1\cucumber-gherkin-messages-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-plugin\6.8.1\cucumber-plugin-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\docstring\6.8.1\docstring-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-picocontainer\6.8.1\cucumber-picocontainer-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-junit\6.8.1\cucumber-junit-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\gherkin\15.0.2\gherkin-15.0.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LUCHO-NOTE\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\LUCHO-NOTE\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\LUCHO-NOTE\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.1.0\extentreports-cucumber6-adapter-2.1.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\json\json\20210307\json-20210307.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="sun.java.command" value="C:\Users\LUCHO-NOTE\AppData\Local\Temp\surefire2725270338817697220\surefirebooter13799588484057997174.jar C:\Users\LUCHO-NOTE\AppData\Local\Temp\surefire2725270338817697220 2021-09-08T16-40-27_171-jvmRun1 surefire6014985798280873180tmp surefire_03824850802401775671tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\LUCHO-NOTE\Documents\git-aprende\ApprendeTest\target\test-classes;C:\Users\LUCHO-NOTE\Documents\git-aprende\ApprendeTest\target\classes;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-java\6.8.1\cucumber-java-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-core\6.8.1\cucumber-core-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-gherkin\6.8.1\cucumber-gherkin-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.8.1\cucumber-gherkin-messages-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-plugin\6.8.1\cucumber-plugin-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\docstring\6.8.1\docstring-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-picocontainer\6.8.1\cucumber-picocontainer-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\cucumber-junit\6.8.1\cucumber-junit-6.8.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\gherkin\15.0.2\gherkin-15.0.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\LUCHO-NOTE\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\LUCHO-NOTE\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\LUCHO-NOTE\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\LUCHO-NOTE\.m2\repository\tech\grasshopper\extentreports-cucumber6-adapter\2.1.0\extentreports-cucumber6-adapter-2.1.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\com\aventstack\klov-reporter\5.0.1\klov-reporter-5.0.1.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\LUCHO-NOTE\.m2\repository\org\json\json\20210307\json-20210307.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LUCHO-NOTE"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\LUCHO-NOTE\Documents\git-aprende\ApprendeTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\LUCHO-NOTE\AppData\Local\Temp\surefire2725270338817697220\surefirebooter13799588484057997174.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="LUCHO-NOTE"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\LUCHO-NOTE\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LUCHO-~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="C:\Users\LUCHO-NOTE\Documents\git-aprende\ApprendeTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\LUCHO-NOTE\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\LUCHO-NOTE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk-11.0.9\bin;C:\Program Files\opt\apache-maven-3.6.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Users\LUCHO-NOTE\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #1" classname="Blockchain Block API Endpoint" time="7.116">
+    <system-out><![CDATA[PREVIOUS: 000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805
+ CURRENT: 000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 36398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:40:37 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #2" classname="Blockchain Block API Endpoint" time="4.327">
+    <system-out><![CDATA[PREVIOUS: 000000002c05cc2e78923c34df87fd108b22221ac6076c18f3ade378a4d915e9
+ CURRENT: 000000002c05cc2e78923c34df87fd108b22221ac6076c18f3ade378a4d915e9
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 24327
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:40:42 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #3" classname="Blockchain Block API Endpoint" time="4.54">
+    <system-out><![CDATA[PREVIOUS: 0000000097be56d606cdd9c54b04d4747e957d3608abe69198c661f2add73073
+ CURRENT: 0000000097be56d606cdd9c54b04d4747e957d3608abe69198c661f2add73073
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 15328
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:40:47 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #4" classname="Blockchain Block API Endpoint" time="4.518">
+    <system-out><![CDATA[PREVIOUS: 0000000027c2488e2510d1acf4369787784fa20ee084c258b58d9fbd43802b5e
+ CURRENT: 0000000027c2488e2510d1acf4369787784fa20ee084c258b58d9fbd43802b5e
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 13852
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:40:51 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #5" classname="Blockchain Block API Endpoint" time="4.453">
+    <system-out><![CDATA[PREVIOUS: 000000005c51de2031a895adc145ee2242e919a01c6d61fb222a54a54b4d3089
+ CURRENT: 000000005c51de2031a895adc145ee2242e919a01c6d61fb222a54a54b4d3089
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 47133
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:40:56 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #6" classname="Blockchain Block API Endpoint" time="5.175">
+    <system-out><![CDATA[PREVIOUS: 0000000080f17a0c5a67f663a9bc9969eb37e81666d9321125f0e293656f8a37
+ CURRENT: 0000000080f17a0c5a67f663a9bc9969eb37e81666d9321125f0e293656f8a37
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 41393
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:41:00 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #7" classname="Blockchain Block API Endpoint" time="4.611">
+    <system-out><![CDATA[PREVIOUS: 00000000b3322c8c3ef7d2cf6da009a776e6a99ee65ec5a32f3f345712238473
+ CURRENT: 00000000b3322c8c3ef7d2cf6da009a776e6a99ee65ec5a32f3f345712238473
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 10500
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:41:06 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #8" classname="Blockchain Block API Endpoint" time="4.827">
+    <system-out><![CDATA[PREVIOUS: 00000000174a25bb399b009cc8deff1c4b3ea84df7e93affaaf60dc3416cc4f5
+ CURRENT: 00000000174a25bb399b009cc8deff1c4b3ea84df7e93affaaf60dc3416cc4f5
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 7546
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:41:10 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #9" classname="Blockchain Block API Endpoint" time="4.479">
+    <system-out><![CDATA[PREVIOUS: 000000003ff1d0d70147acfbef5d6a87460ff5bcfce807c2d5b6f0a66bfdf809
+ CURRENT: 000000003ff1d0d70147acfbef5d6a87460ff5bcfce807c2d5b6f0a66bfdf809
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 3953
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:41:15 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #10" classname="Blockchain Block API Endpoint" time="4.673">
+    <system-out><![CDATA[PREVIOUS: 000000008693e98cf893e4c85a446b410bb4dfa129bd1be582c09ed3f0261116
+ CURRENT: 000000008693e98cf893e4c85a446b410bb4dfa129bd1be582c09ed3f0261116
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 35424
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:41:19 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify Blockchain Hash is correct from /10 to /20 endpoints of Blockchain Api Website #11" classname="Blockchain Block API Endpoint" time="3.615">
+    <system-out><![CDATA[PREVIOUS: 00000000841cb802ca97cf20fb9470480cae9e5daa5d06b4a18ae2d5dd7f186f
+ CURRENT: 00000000841cb802ca97cf20fb9470480cae9e5daa5d06b4a18ae2d5dd7f186f
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 19269
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sept. 08, 2021 4:41:24 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
