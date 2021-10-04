@@ -32,4 +32,8 @@ public class BlockChainStepDefinition {
     public void configuro_headers(DataTable dataTable) {
         blockChainSteps.configuroCabeceras(dataTable);
     }
+    @Cuando("^Ejecuto el servicio \"([^\"]*)\" con el token de autorizacion y los datos de autenticacion$")
+    public void ejecuto_servicio_login_con_token_y_datos_de_autenticacion(String identficadorServicio) throws IOException {
+        blockChainSteps.validarCodigoRespueta(identficadorServicio);
+    }
 }
